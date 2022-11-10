@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  font-size: 18px;
+  margin: 0 auto;
+  width: 80%;
+}
+
+h2 {
+  font-size: 33px;
+  letter-spacing: 0.05em;
+}
+
+input,
+button {
+  font-size: 18px;
+}
+
+.payment button {
+  text-align: center;
+  padding: 50px 150px;
+  margin-left: 10px;
+  border-radius: 20px;
+}
+
+.card {
+  line-height: 2.0em;
+  margin-bottom: 30px;
+  margin: 0 150px 30px 150px;
+}
+
+
+.buy button {
+  width: 30%;
+  border-radius: 20px;
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+
+
+/* General styles*/
+.bg-color {
+  background-image: linear-gradient(#FC7A48, #FF4E9C);
+  color: white;
+}
+
+.color {
+  color: #FE6B65;
+}
+
+.flexing {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.padding {
+  padding: 5px 20px;
+}
+
+.align {
+  text-align: center;
+}
+
+.no-border {
+  border: 0;
+}
